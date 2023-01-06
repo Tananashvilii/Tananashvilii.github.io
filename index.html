@@ -6,52 +6,56 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>MIL</title>
-        <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body style="background-color:#e7f3fe">
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-                <a class="navbar-brand" href="#">
-                <img src="logo.png" style="width: 5%">
-                    <span style="font-size: 12pt">MIL</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+        <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+        </script>
+    </head>
+
+    <body style="background-color:#e7f3fe">
+        <nav class="nav">
+            <div class="logo">
+                <img src="logo.png" style="width: 5%">MIL
             </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#container">Home</a></li>
+                    <li><a href="#aboutUs">About Us</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contactUs">Contact</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
         </nav>
-        <!-- Page content-->
-        <div class="container">
+
+        <div class="container" id="container">
             <div class="text-center mt-5">
                 <h1 style="color:#1B5895">
                     <b>Software Development</b>
                 </h1>
                 <h2 style="font-size: 16pt">
-                    "Experience the difference with us."
+                    Experience the difference with us.
                 </h2>
                 <img src="./cover.png" style="width:80%; height: 70%" />
             </div>
         </div>
 
-        <div class="aboutUs">
+        <div class="aboutUs" id="aboutUs">
             <div class="text-center mt-5">
                 <h2 style="font-size: 16pt; color: #DC7A1E"><b> About Us</b></h2>
                 <div align="center" class="aboutUsText">
@@ -70,7 +74,7 @@
             </div>
         </div>
 
-        <div class="projects">
+        <div class="projects" id="projects">
             <div class="text-center mt-5">
                 <h2 style="font-size: 16pt; color: #DEC11F"><b>Our projects</b></h2>
                 <div align="center" class="projectsText">
@@ -115,31 +119,7 @@
             </div>
         </div>
 
-        <div class="contactUs">
-            <div class="text-center mt-5">
-                <h2 style="font-size: 16pt; color: #4298EF"><b> Contact Us</b></h2>
-                <div align="center" class="contactUsText">
-                    <p style="width: 50%;">
-                        Thank you for considering reaching out to us. We value your business and are always happy to
-                        answer any questions you may have.You can contact us in a variety of ways:
-                    </p>
-                    <ul class="contactInfo">
-                        <li style="text-align: justify; max-width: 750px;">
-                           Phone: +995 592 006 704
-                        </li>
-                        <li style="text-align: justify; max-width: 750px;">
-                            Email: saba.tananashvili@mil-data.com
-                        </li>
-                        <li style="text-align: justify; max-width: 750px;">
-                            Mailing Address: 0186
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container challenge" style="padding-bottom: 30px;">
+        <div class="container challenge" id="reviews" style="padding-bottom: 30px;">
             <h3 style="text-align: center; font-size: 16pt; padding-top: 30px; color: #A7DE1F">
                 <b>REVIEWS</b>
             </h3>
@@ -170,6 +150,30 @@
                     <p>"I had a terrible experience with this company's data analysis services. The team was
                         unresponsive and the results were inaccurate. I do not recommend using this company for
                         any data analysis needs."</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contactUs" id="contactUs">
+            <div class="text-center mt-5">
+                <h2 style="font-size: 16pt; color: #4298EF"><b> Contact Us</b></h2>
+                <div align="center" class="contactUsText">
+                    <p style="width: 50%;">
+                        Thank you for considering reaching out to us. We value your business and are always happy to
+                        answer any questions you may have.You can contact us in a variety of ways:
+                    </p>
+                    <ul class="contactInfo">
+                        <li style="text-align: justify; max-width: 750px;">
+                           Phone: +995 592 006 704
+                        </li>
+                        <li style="text-align: justify; max-width: 750px;">
+                            Email: saba.tananashvili@mil-data.com
+                        </li>
+                        <li style="text-align: justify; max-width: 750px;">
+                            Mailing Address: 0186
+                        </li>
+
+                    </ul>
                 </div>
             </div>
         </div>
