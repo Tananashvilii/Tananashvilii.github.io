@@ -3934,9 +3934,10 @@ textarea.form-control-lg {
 
 .nav div.logo {
     float: left;
-    width: 700px;
-    height: auto;
-    padding-left: 0rem;
+    width: 750px;
+    height: 50px;
+    padding-left: 1rem;
+    padding-top: 0rem
 }
 
 
