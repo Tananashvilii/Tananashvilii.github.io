@@ -3936,7 +3936,7 @@ textarea.form-control-lg {
     float: left;
     width: 750px;
     height: 50px;
-    padding-left: 1rem;
+    padding-left: 10rem;
     padding-top: 0rem
 }
 
@@ -11020,6 +11020,7 @@ textarea.form-control-lg {
 .affix {
     padding: 0;
     background-color: #F3F3FA;
+    border-bottom: 1px solid #9AA2B4
 }
 
 .footer-dark {
