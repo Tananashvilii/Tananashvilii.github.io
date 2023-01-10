@@ -293,7 +293,7 @@
                 <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
               </div>
               <textarea class="form-control" id="messageArea" rows="10" placeholder="MESSAGE" name="message" required></textarea>
-              <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+              <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND" name="send">
                 <div class="alt-send-button">
                   <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
                 </div>
@@ -304,7 +304,7 @@
                   <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone">
                       <a href="tel:+995-599-420-644" title="Give me a call" style="color:#858484">(+995) 599-420-644</a></span></i></li>
                   <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail">
-                      <a href="mailto:Mariam.karkarashvili@mil-data.com" title="Send me an email" style="color:#858484">Mariam.karkarashvili@mil-data.com</a></span></i></li>
+                      <a href="info@mil-data.com" title="Send me an email" style="color:#858484">info@mil-data.com</a></span></i></li>
                 </ul>
                 <hr>
                 <ul class="social-media-list">
