@@ -11651,3 +11651,16 @@ a{
     color: #ffffff;
     background-color: #252525;
 }
+
+.aboutContent{
+    font-family: Arial, sans-serif;
+    flex: 1; /* Allow the sections to take up equal amounts of space */
+    padding: 16px; /* Add some padding for the content */
+    text-align: center; /* Center the text within the sections */
+    background-color: #FFFFFF; /* White */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the sections */
+    border-radius: 8px; /* Round the corners of the sections */
+    margin: 2.5px; /* Add some margin between the sections */
+    font-size: 18px; /* Make the text slightly larger */
+    line-height: 1.5; /* Add some space between the lines of text */
+}
