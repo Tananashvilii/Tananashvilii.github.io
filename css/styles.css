@@ -11435,6 +11435,7 @@ button {
   padding:30px;
   color:#BBBABA;
   background-color:#751D41;
+  height:280px
 }
 
 .footer-dark h3 {
@@ -11515,7 +11516,7 @@ button {
 
 .footer-dark .copyright {
   text-align:center;
-  padding-top:24px;
+  padding-top:8px;
   opacity:0.3;
   font-size:13px;
   margin-bottom:0;
