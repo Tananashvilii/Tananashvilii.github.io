@@ -3881,8 +3881,8 @@ button {
   font-weight: 530;
   font-size: 15px;
   letter-spacing: 0px;
-  color: #0F0F52;
-  border: 1.8px #0F0F52 solid;
+  color: #751D41;
+  border: 1.8px #751D41 solid;
   border-radius: 4px;
   text-transform: uppercase;
   outline: 0;
@@ -4361,7 +4361,7 @@ button {
 
 .nav div.main_list ul li a {
     text-decoration: none;
-    color: #0F0F52;
+    color: #751D41;
     line-height: 65px;
     font-size: 1.4rem;
 }
@@ -4369,7 +4369,7 @@ button {
 #contacthref {
     display: block;
     text-decoration: none;
-    color: #0F0F52;
+    color: #751D41;
     line-height: 65px;
     font-size: 1.4rem;
     width:100%;
