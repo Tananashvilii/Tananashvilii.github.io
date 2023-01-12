@@ -11664,3 +11664,38 @@ a{
     font-size: 18px; /* Make the text slightly larger */
     line-height: 1.5; /* Add some space between the lines of text */
 }
+
+#our-projects {
+  padding: 30px;
+  text-align: center;
+}
+#our-projects h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+#our-projects li {
+  padding: 16px;
+  padding-top:30px;
+  border-radius: 8px;
+  display: inline-block;
+  width: 32%;
+  height:200px;
+  margin: 0 1%;
+  vertical-align: top;
+  background-color: #FFFFFF;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 2.5px;
+  line-height: 1.5;
+}
+#our-projects h3 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #0084ff;
+}
+#our-projects p {
+  font-size: 1.2em;
+  color: #555;
+  line-height: 1.4;
+}
